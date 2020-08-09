@@ -18,9 +18,9 @@
 # 🚀 O que eu aprendi com o projeto!
 
 - Configurar o ambiente de desenvolvimento
-- Conceitos de back-end e Node.js
+- Conceitos de back-end em Node.js
 - Particularidades da API REST
-- Conceitos de Rotas, Recursos, Métodos HTTP e Parâmentros
+- Conceitos de Rotas, Recursos, Métodos HTTP e Parâmetros
 - Confirguração da conxeão do banco de dados
 - Criação de tabelas no banco de dados
 
