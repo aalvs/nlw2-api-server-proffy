@@ -1,5 +1,6 @@
 <div align='center'>
-<img src="/.github/proffy.png" width='250'>
+<img src=".github/proffy.png" width='250'>
+</div>
 
 # Funcionalidades
 
@@ -14,4 +15,3 @@
 - Rota para listar aulas;
     - Filtro por matéria, dia da semana e horário.
 
-</div>
