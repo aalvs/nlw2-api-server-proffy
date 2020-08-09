@@ -2,7 +2,7 @@
 <img src=".github/proffy.png" width='250'>
 </div>
 
-# 📚 Funcionalidades da API
+# 🚀 Funcionalidades da API
 
 ## Conexões 
 
@@ -15,7 +15,9 @@
 - Rota para listar aulas;
     - Filtro por matéria, dia da semana e horário.
 
-# 🚀 O que eu aprendi com o projeto!
+---
+
+# 📚 O que eu aprendi com o projeto!
 
 - Configurar o ambiente de desenvolvimento
 - Conceitos de back-end em Node.js
