@@ -1,10 +1,10 @@
-import knex from 'knex';
+import Knex from 'knex';
 
-export async function up(knex: knex) {
+export async function up(knex: Knex) {
     return knex.schema.createTable('connections', table => {
         table.increments('id').primary();
         
-        table.integer('class_id')
+        table.integer('user_id')
             .notNullable()
             .references('id')
             .inTable('users')
@@ -12,12 +12,12 @@ export async function up(knex: knex) {
             .onDelete('CASCADE');
 
         table.timestamp('created_at')
-            .defaultTo('now()')
+            .defaultTo(knex.raw('CURRENT_TIMESTAMP'))
             .notNullable();
     });
 }
 
-export async function down(knex: knex) {
+export async function down(knex: Knex) {
     return knex.schema.dropTable('connections');
 }
 

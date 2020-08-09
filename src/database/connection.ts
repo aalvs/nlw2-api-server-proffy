@@ -1,9 +1,9 @@
-import knex from 'knex';
+import Knex from 'knex';
 import path from'path';
 
-//migratiomns - controla a versão do banco de dados
+//migrations - controlam a versão do banco de dados
 
-const db = knex({
+const db = Knex({
     client: 'sqlite3',
     connection: {
         filename: path.resolve(__dirname, 'database.sqlite')

@@ -1,3 +1,6 @@
+<div align='center'>
+<img src="/.github/proffy.png" width='250'>
+
 # Funcionalidades
 
 ## Conexões 
@@ -10,3 +13,5 @@
 - Rota para criar uma aula;
 - Rota para listar aulas;
     - Filtro por matéria, dia da semana e horário.
+
+</div>
